@@ -18,7 +18,7 @@
 		}
 	}
 
-	function angularMoment(angular, moment) {
+	function angularMoment(moment) {
 
 		if(typeof moment === 'undefined') {
 			if(typeof require === 'function') {
