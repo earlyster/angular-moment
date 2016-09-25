@@ -725,7 +725,7 @@
 	}
 
 	if (typeof define === 'function' && define.amd) {
-		define(['angular', 'moment'], angularMoment);
+		define(['moment'], angularMoment);
 	} else if (typeof module !== 'undefined' && module && module.exports) {
 		angularMoment(angular, require('moment'));
 		module.exports = 'angularMoment';
